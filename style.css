@@ -24,6 +24,10 @@ a {
   color:#0366d6;
 }
 
+a:hover {
+  color:#0353ad;
+}
+
 /* Header Styles */
 header {
   background-color:#3d3d40;
