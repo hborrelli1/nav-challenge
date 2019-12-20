@@ -1,0 +1,126 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+*:focus {
+  outline:none;
+}
+
+body {
+  font-family: sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size:16px;
+  letter-spacing:.5px;
+  margin:0px;
+  padding:0px;
+}
+
+.content-margins {
+  margin:0 auto;
+  max-width:1200px;
+}
+
+a {
+  color:#0366d6;
+}
+
+/* Header Styles */
+header {
+  background-color:#3d3d40;
+  padding:30px 0px 0px;
+}
+
+h1 {
+  color:#f1f1f1;
+  font-family: 'Roboto Slab', serif;
+  font-size:40px;
+  font-weight:300;
+  margin-bottom:20px;
+  margin-top:0px;
+}
+
+/* Nav Styles */
+nav button {
+  background-color:transparent;
+  border-bottom:4px solid transparent;
+  border-color:transparent;
+  color:#f1f1f1;
+  font-size:16px;
+  letter-spacing:.5px;
+  padding-bottom:10px;
+  transition:all .3s;
+}
+
+nav button:hover {
+  border-bottom:4px solid #f1f1f1;
+  cursor: pointer;
+  transition:all .3s;
+}
+
+nav button.active {
+  border-bottom:4px solid #e36209;
+}
+
+/* Main Content Styles */
+main {
+  background-color:#f7f8fa;
+  height:calc(100vh - 160px);
+  padding:20px;
+  text-align:center;
+}
+
+.allCourses,
+.collections,
+.wishlist,
+.archived {
+  display:none;
+}
+
+.active-view {
+  display:block !important;
+}
+
+.course-list {
+  padding-left:0px;
+}
+
+.course-list li {
+  background-color:#fff;
+  border:1px solid #d1d5da;
+  cursor: pointer;
+  font-size:18px;
+  letter-spacing:1px;
+  list-style-type: none;
+  margin-bottom:20px;
+  padding: 20px;
+  text-align:left;
+  width: 100%;
+}
+
+.course-list li:hover {
+  color:#0366d6;
+}
+
+.wishlist button {
+  background-color:#ee7369;
+  border-color:#ee7369;
+  color:#fff;
+  font-size:16px;
+  letter-spacing:1px;
+  padding:8px 20px;
+  transition:all .3s;
+}
+
+.wishlist button:hover {
+  background-color:#d6645a;
+  border-color:#d6645a;
+  cursor:pointer;
+  transition:all .3s;
+}
+
+footer {
+  background-color:#3d3d40;
+  color:#f1f1f1;
+  padding:5px;
+  text-align:center;
+}
